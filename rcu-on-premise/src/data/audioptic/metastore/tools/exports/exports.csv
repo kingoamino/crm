@@ -1,0 +1,13 @@
+id;code;title;server_type;server_name;export_path;file_mask;query_file;delimiter;encoding
+1;lissac_acs_bm_golden;Export des contacts golden;sftp;audioptic;Adobe/in/;lissac_acs_bm_golden_;lissac_acs_bm_golden.sql;|;utf-8
+1;lissac_acs_bm_aggcontacts;Export des aggrégats contact;sftp;audioptic;Adobe/in/;lissac_acs_bm_aggcontacts_;lissac_acs_bm_aggcontacts.sql;|;utf-8
+1;lissac_acs_bm_transactions;Export des transactions;sftp;audioptic;Adobe/in/;lissac_acs_bm_transactions_;lissac_acs_bm_transactions.sql;|;utf-8
+1;lissac_acs_bm_detailtransactions;Export des détails transactions;sftp;audioptic;Adobe/in/;lissac_acs_bm_detailtransactions_;lissac_acs_bm_detailtransactions.sql;|;utf-8
+1;lissac_acs_bm_magasins;Export des magasins;sftp;audioptic;Adobe/in/;lissac_acs_bm_magasins_;lissac_acs_bm_magasins.sql;|;magasinstf-8
+1;lissac_acs_bm_masterobsoletes;Export des masters obsolètes;sftp;audioptic;Adobe/in/;lissac_acs_bm_masterobsoletes_;lissac_acs_bm_masterobsoletes.sql;|;magasinstf-8
+1;lissac_bm_mediatech_flux2;Export des données score nps;sftp;audioptic;NPS/Lissac/in/;NPS_Lissac_Flux2_;lissac_bm_mediatech_flux2.sql;|;utf-8
+1;lissac_bm_acs_flux7;Export notes et commentaires nps;sftp;audioptic;Adobe/in/;NPS_Lissac_Flux7_;lissac_bm_acs_flux7.sql;|;utf-8
+1;lissac_bm_acs_bonsValorises;Export des bons valorises;sftp;audioptic;Adobe/in/;lissac_bm_acs_bonsValorises_;lissac_bm_acs_bonsValorises.sql;|;magasinstf-8
+1;lissac_bm_acs_carteFidelite;Export des cartes fidelite;sftp;audioptic;Adobe/in/;lissac_bm_acs_carteFidelite_;lissac_bm_acs_carteFidelite.sql;|;magasinstf-8
+1;lissac_bm_acs_maj_tel_mobile;Export numero et commentaires;sftp;audioptic;LineUp7/Malick/;MAJ_Tel_Mobile_;lissac_bm_acs_maj_tel_mobile.sql;|;utf-8
+1;lissac_bm_acs_maj_courrier;Export courrier et commentaires;sftp;audioptic;LineUp7/Malick/;MAJ_Courrier_;lissac_bm_acs_maj_courrier.sql;|;utf-8

@@ -1,0 +1,29 @@
+{
+    "queries": [
+        "preparation.sql",
+        "consolidate_contacts_unitaires.sql",
+        "consolidate_magasins.sql",
+        "consolidate_contacts_golden_1.sql",
+        "consolidate_transactions.sql",
+        "consolidate_details_transactions.sql",
+        "consolidate_carte_fidelite.sql",
+        "consolidate_contacts_golden_2.sql",
+        "consolidate_historique_logs.sql",
+        "consolidate_historique_consentements.sql",
+        "consolidate_contacts_golden_3.sql",
+        "consolidate_agregats_contacts.sql",
+        "consolidate_segmentation.sql",
+        "consolidate_sas_golden.sql",
+        "consolidate_rejets.sql",
+        "consolidate_bons_valorises.sql",
+        "consolidate_agregats_contacts_bi.sql",
+        "consolidate_associations_contacts_bi.sql",
+        "consolidate_contacts_golden_bi.sql",
+        "consolidate_historique_consentements_bi.sql",
+        "consolidate_historique_logs_bi.sql",
+        "consolidate_ref_campagnes_bi.sql",
+        "consolidate_score_nps.sql",
+        "consolidate_segmentation_bi.sql",
+        "consolidate_stop_com.sql"
+    ]
+}

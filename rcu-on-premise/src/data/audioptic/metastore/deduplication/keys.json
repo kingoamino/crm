@@ -1,0 +1,25 @@
+{
+    "keys": [
+        {
+            "id": 1,
+            "cols": ["master_id"]
+        },
+        {
+            "id": 2,
+            "cols": ["email", "prenom"]
+        },
+        {
+            "id": 3,
+            "cols": ["tel_mobile", "prenom"]
+        },
+        {
+            "id": 4,
+            "cols": ["codepostal", "nom", "prenom"]
+        },
+        {
+            "id": 5,
+            "cols": ["date_naissance", "nom", "prenom"]
+        }
+    ],
+    "order_by": "date_creation"
+}

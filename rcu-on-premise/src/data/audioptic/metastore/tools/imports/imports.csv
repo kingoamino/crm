@@ -1,0 +1,13 @@
+id;code;title;server_type;server_name;file_path;file_mask;file_extension;schema;table;pk;delimiter;encoding;is_upsert;today;to_archive;archive_path
+1;acs_ref_campagnes;Import Ref Campagnes de Adobe;sftp;audioptic;Adobe/out/ref_campagnes;lissac_acs_bm_refCampagnes_;.csv;marketing;ref_campagnes;diffusion_id;|;utf-8-sig;true;true;false;
+2;sas_log_diffusion_acs;Import Logs Diffusion De Adobe;sftp;audioptic;Adobe/out/ref_campagnes;lissac_acs_bm_LogsDiffusions_;.csv;espace_travail;sas_logs_diffusions_acs;log_id;|;utf-8-sig;true;true;false;
+3;sas_hardbounces_acs;Import hisorique hardbounce;sftp;audioptic;Adobe/out/histo_hardbounces;Lissac_Acs_Bm_HistoriqueQuarantaines_;.csv;espace_travail;sas_hardbounces_acs;adresse;|;utf-8-sig;true;true;false;
+4;sas_desabonnement_acs;Import hisorique désabonnement;sftp;audioptic;Adobe/out/histo_consentements;lissac_acs_bm_HistoDesabonnements_;.csv;espace_travail;sas_desabonnement_acs;contact_id, action, service, source, date_evenement;|;utf-8-sig;true;true;false;
+5;sas_collecte_externe;Import collecte externe;sftp;audioptic;Adobe/out/collecte_externe;lissac_acs_bm_CollecteExterne_;.csv;espace_travail;sas_collecte_externe;;|;utf-8-sig;true;true;false;
+6;sas_logs_nps_acs;Import flux 6;sftp;audioptic;Adobe/out/logs_nps;NPS_Lissac_Flux6_;.csv;espace_travail;sas_logs_nps_acs;TRANSACTION_ID;|;utf-8-sig;true;true;false;
+7;sas_item_nps;Import flux 5;sftp;audioptic;NPS/Lissac/out;NPS_Lissac_Flux5_;.csv;espace_travail;sas_item_nps;TRANSACTION_ID;|;utf-8-sig;true;false;true;NPS/Lissac/out/archive/Flux_5
+8;sas_notes_commentaire_nps;Import flux 4;sftp;audioptic;NPS/Lissac/out;NPS_Lissac_Flux4_;.csv;espace_travail;sas_notes_commentaire_nps;TRANSACTION_ID;|;utf-8-sig;true;false;true;NPS/Lissac/out/archive/Flux_4
+9;sas_transaction_url_nps;Import flux 3;sftp;audioptic;NPS/Lissac/out;NPS_Lissac_Flux3_;.csv;espace_travail;sas_transaction_url_nps;TRANSACTION_ID;|;utf-8-sig;true;false;true;NPS/Lissac/out/archive/Flux_3
+10;sas_maj_tel_mobile;Import fichier maj tel;sftp;audioptic;LineUp7/Malick;lissac_acs_bm_majTelMobile_;.csv;espace_travail;sas_maj_tel_mobile;;|;utf-8-sig;true;true;false;
+11;sas_maj_courrier;Import fichier maj courrier;sftp;audioptic;LineUp7/Malick;lissac_acs_bm_majCourrier_;.csv;espace_travail;sas_maj_courrier;;|;utf-8-sig;true;true;false;
+12;sas_alliage;Import fichier alliage;sftp;audioptic;Laposte_Alliage/out;lissac_acs_bm_Alliage_;.csv;espace_travail;sas_alliage;ID;|;utf-8-sig;true;true;false;

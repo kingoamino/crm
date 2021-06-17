@@ -1,0 +1,2 @@
+insert into interface_db_marketing.historique_consentements (CONTACT_ID, CONSENTEMENT, SENS_CONSENTEMENT, SOURCE, DETAIL_SOURCE, DATE_MAJ, DATE_CREATION, DATE_MODIFICATION)
+select hc.CONTACT_ID, hc.CONSENTEMENT, hc.SENS_CONSENTEMENT, hc.SOURCE, hc.DETAIL_SOURCE, hc.DATE_MAJ, now(), now() from marketing.historique_consentements hc;

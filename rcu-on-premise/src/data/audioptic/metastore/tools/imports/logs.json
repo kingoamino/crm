@@ -1,0 +1,6 @@
+{
+    "start": "Start 01 - Import des données dans les tables SAS",
+    "query_info": "--> Execution de l'import pour ",
+    "query_exception": "--> Execution de l'import pour ",
+    "end": "End 01 - Import des données dans les tables SAS"
+}

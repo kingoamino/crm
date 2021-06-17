@@ -1,0 +1,63 @@
+{
+    "mappings": [
+        {
+            "type": "asso",
+            "table_schema": "marketing",
+            "table_name": "associations_contacts",
+            "cols": [
+                ["source_contact_id", "src_contact_id"],
+                ["source_creation", "src_name"],
+                ["contact_id", "master_id"],
+                ["date_creation", "created_dt"]
+            ]
+        },
+        {
+            "type": "obsolete",
+            "table_schema": "marketing",
+            "table_name": "historique_golden",
+            "cols": [
+                ["old_contact_id", "old_master_id"],
+                ["contact_id", "master_id"],
+                ["date_creation", "created_dt"]
+            ]
+        },
+        {
+            "type": "contact",
+            "table_schema": "marketing",
+            "table_name": "contacts_unitaires",
+            "cols": [
+                ["source_contact_id", "src_contact_id"],
+                ["source_creation", "src_name"],
+                ["source_date_creation", "source_date_creation"],
+                ["source_date_modification", "source_date_modification"],
+                ["date_creation", "date_creation"],
+                ["date_modification", "date_modification"],
+                ["code_magasin_sap", "code_magasin_sap"],
+                ["sexe", "sexe"],
+                ["civilite", "civilite"],
+                ["nom", "nom"],
+                ["prenom", "prenom"],
+                ["date_naissance", "date_naissance"],
+                ["optin_courrier", "optin_courrier"],
+                ["adresse_norm", "adresse_norm"],
+                ["adresse1", "adresse1"],
+                ["adresse2", "adresse2"],
+                ["adresse3", "adresse3"],
+                ["adresse4", "adresse4"],
+                ["codepostal", "codepostal"],
+                ["ville", "ville"],
+                ["pays", "pays"],
+                ["code_pays", "code_pays"],
+                ["email", "email"],
+                ["email_valid", "email_valid"],
+                ["optin_email", "optin_email"],
+                ["tel_fixe", "tel_fixe"],
+                ["tel_mobile", "tel_mobile"],
+                ["mobile_valid", "mobile_valid"],
+                ["optin_sms", "optin_sms"],
+                ["date_derniere_ordo", "date_derniere_ordo"],
+                ["decede", "decede"]
+            ]
+        }
+    ]
+}

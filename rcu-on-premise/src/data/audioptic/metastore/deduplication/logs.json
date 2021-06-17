@@ -1,0 +1,8 @@
+{
+    "start": "Start 03 - Déduplication et réconciliation des contacts",
+    "import_process": "--> Import des données contacts unitaires à dédupliquer",
+    "dedup_process": "--> Déduplication des contacts",
+    "merge_process": "--> Réconciliation des contacts",
+    "export_process": "--> Alimentation des données contacts pre-golden",
+    "end": "End 03 - Déduplication et réconciliation des contacts"
+}

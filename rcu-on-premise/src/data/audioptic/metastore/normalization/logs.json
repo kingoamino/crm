@@ -1,0 +1,9 @@
+{
+    "start": "Start 02 - Normalisation et alimentation des contacts unitaires",
+    "import_process": "--> Import des contacts unitaires à normaliser",
+    "generic_norm_process": "--> Normalisation des champs génériques",
+    "phone_norm_process": "--> Normalisation des téléphones",
+    "validity_norm_process": "--> Mise à jour des champs de validité",
+    "export_process": "--> Alimentation des données contacts unitaires",
+    "end": "End 02 - Normalisation et alimentation des contacts unitaires"
+}

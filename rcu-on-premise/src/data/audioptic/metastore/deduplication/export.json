@@ -1,0 +1,88 @@
+{
+    "mappings": [
+        {
+            "df": "contact",
+            "operation": "flush",
+            "table_schema": "espace_travail",
+            "table_name": "contacts_pre_golden",
+            "pk_cols": ["contact_id"],
+            "mapping": [
+                ["master_id", "contact_id"],
+                ["sexe", "sexe"],
+                ["civilite", "civilite"],
+                ["nom", "nom"],
+                ["prenom", "prenom"],
+                ["date_naissance", "date_naissance"],
+                ["optin_courrier", "optin_courrier"],
+                ["adresse1", "adresse1"],
+                ["adresse2", "adresse2"],
+                ["adresse3", "adresse3"],
+                ["adresse4", "adresse4"],
+                ["codepostal", "codepostal"],
+                ["ville", "ville"],
+                ["pays", "pays"],
+                ["code_pays", "code_pays"],
+                ["email", "email"],
+                ["email_valid", "email_valid"],
+                ["optin_email", "optin_email"],
+                ["tel_fixe", "tel_fixe"],
+                ["tel_mobile", "tel_mobile"],
+                ["mobile_valid", "mobile_valid"],
+                ["optin_sms", "optin_sms"]
+            ]
+        },
+        {
+            "df": "asso",
+            "operation": "upsert",
+            "table_schema": "marketing",
+            "table_name": "associations_contacts",
+            "pk_cols": ["source_contact_id", "source_creation"],
+            "update": 1,
+            "updated_dt_col": "date_modification",
+            "distinct_from_clause": 1,
+            "update_filter": 0,
+            "update_filter_condition": [],
+            "mapping": [
+                ["src_contact_id", "source_contact_id"],
+                ["src_name", "source_creation"],
+                ["master_id", "contact_id"],
+                ["created_dt", "date_creation"]
+            ]
+        },
+        {
+            "df": "asso",
+            "operation": "upsert",
+            "table_schema": "espace_travail",
+            "table_name": "historique_associations_contacts",
+            "pk_cols": ["source_contact_id", "source_creation", "contact_id"],
+            "update": 0,
+            "updated_dt_col": null,
+            "distinct_from_clause": 0,
+            "update_filter": 0,
+            "update_filter_condition": [],
+            "mapping": [
+                ["src_contact_id", "source_contact_id"],
+                ["src_name", "source_creation"],
+                ["master_id", "contact_id"],
+                ["created_dt", "date_creation"]
+            ]
+        },
+        {
+            "df": "obsolete",
+            "operation": "upsert",
+            "table_schema": "marketing",
+            "table_name": "historique_golden",
+            "pk_cols": ["old_contact_id"],
+            "update": 0,
+            "updated_dt_col": null,
+            "distinct_from_clause": 0,
+            "update_filter": 0,
+            "update_filter_condition": [],
+            "mapping": [
+                ["old_master_id", "old_contact_id"],
+                ["master_id", "contact_id"],
+                ["created_dt", "date_creation"]
+            ]
+        }
+    ]
+}

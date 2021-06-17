@@ -1,0 +1,5 @@
+id;code;title;server_type;server_name;dir_path;is_recursive;retention_days
+1;purge_dir_adobe;Purge du répertoire Adobe;sftp;audioptic;Adobe/;true;10
+2;purge_dir_imprimeur;Purge du répertoire Imprimeur;sftp;audioptic;Imprimeur/;true;10
+3;purge_dir_laposte_alliage;Purge du répertoire Laposte_Alliage;sftp;audioptic;Laposte_Alliage/;true;10
+4;purge_dir_sinch;Purge du répertoire Sinch;sftp;audioptic;Sinch/;true;10

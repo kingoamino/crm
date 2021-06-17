@@ -1,0 +1,68 @@
+2021-06-01 14:51:02 [INFO]: Start 01 - Import des données dans les tables SAS
+2021-06-01 14:51:02 [INFO]: --> Execution de l'import pour acs_ref_campagnes
+2021-06-01 14:51:02 [INFO]: Connected (version 2.0, client OpenSSH_8.0)
+2021-06-01 14:51:02 [INFO]: Authentication (password) successful!
+2021-06-01 14:51:02 [INFO]: [chan 0] Opened sftp connection (server version 3)
+2021-06-01 14:51:02 [INFO]: [chan 0] sftp session closed.
+2021-06-01 14:51:02 [INFO]: --> Execution de l'import pour sas_log_diffusion_acs
+2021-06-01 14:51:02 [INFO]: Connected (version 2.0, client OpenSSH_8.0)
+2021-06-01 14:51:03 [INFO]: Authentication (password) successful!
+2021-06-01 14:51:03 [INFO]: [chan 0] Opened sftp connection (server version 3)
+2021-06-01 14:51:03 [INFO]: [chan 0] sftp session closed.
+2021-06-01 14:51:03 [INFO]: --> Execution de l'import pour sas_hardbounces_acs
+2021-06-01 14:51:03 [INFO]: Connected (version 2.0, client OpenSSH_8.0)
+2021-06-01 14:51:03 [INFO]: Authentication (password) successful!
+2021-06-01 14:51:03 [INFO]: [chan 0] Opened sftp connection (server version 3)
+2021-06-01 14:51:03 [INFO]: [chan 0] sftp session closed.
+2021-06-01 14:51:03 [INFO]: --> Execution de l'import pour sas_desabonnement_acs
+2021-06-01 14:51:03 [INFO]: Connected (version 2.0, client OpenSSH_8.0)
+2021-06-01 14:51:03 [INFO]: Authentication (password) successful!
+2021-06-01 14:51:03 [INFO]: [chan 0] Opened sftp connection (server version 3)
+2021-06-01 14:51:03 [INFO]: [chan 0] sftp session closed.
+2021-06-01 14:51:03 [INFO]: --> Execution de l'import pour sas_collecte_externe
+2021-06-01 14:51:03 [INFO]: Connected (version 2.0, client OpenSSH_8.0)
+2021-06-01 14:51:04 [INFO]: Authentication (password) successful!
+2021-06-01 14:51:04 [INFO]: [chan 0] Opened sftp connection (server version 3)
+2021-06-01 14:51:04 [INFO]: [chan 0] sftp session closed.
+2021-06-01 14:51:04 [INFO]: --> Execution de l'import pour sas_logs_nps_acs
+2021-06-01 14:51:04 [INFO]: Connected (version 2.0, client OpenSSH_8.0)
+2021-06-01 14:51:04 [INFO]: Authentication (password) successful!
+2021-06-01 14:51:04 [INFO]: [chan 0] Opened sftp connection (server version 3)
+2021-06-01 14:51:04 [INFO]: [chan 0] sftp session closed.
+2021-06-01 14:51:04 [INFO]: --> Execution de l'import pour sas_item_nps
+2021-06-01 14:51:04 [INFO]: Connected (version 2.0, client OpenSSH_8.0)
+2021-06-01 14:51:04 [INFO]: Authentication (password) successful!
+2021-06-01 14:51:04 [INFO]: [chan 0] Opened sftp connection (server version 3)
+2021-06-01 14:51:04 [INFO]: [chan 0] sftp session closed.
+2021-06-01 14:51:04 [INFO]: --> Execution de l'import pour sas_notes_commentaire_nps
+2021-06-01 14:51:05 [INFO]: Connected (version 2.0, client OpenSSH_8.0)
+2021-06-01 14:51:05 [INFO]: Authentication (password) successful!
+2021-06-01 14:51:05 [INFO]: [chan 0] Opened sftp connection (server version 3)
+2021-06-01 14:51:05 [INFO]: [chan 0] sftp session closed.
+2021-06-01 14:51:05 [INFO]: --> Execution de l'import pour sas_transaction_url_nps
+2021-06-01 14:51:05 [INFO]: Connected (version 2.0, client OpenSSH_8.0)
+2021-06-01 14:51:05 [INFO]: Authentication (password) successful!
+2021-06-01 14:51:05 [INFO]: [chan 0] Opened sftp connection (server version 3)
+2021-06-01 14:51:05 [INFO]: [chan 0] sftp session closed.
+2021-06-01 14:51:05 [INFO]: --> Execution de l'import pour sas_maj_tel_mobile
+2021-06-01 14:51:05 [INFO]: Connected (version 2.0, client OpenSSH_8.0)
+2021-06-01 14:51:05 [INFO]: Authentication (password) successful!
+2021-06-01 14:51:06 [INFO]: [chan 0] Opened sftp connection (server version 3)
+2021-06-01 14:51:06 [INFO]: [chan 0] sftp session closed.
+2021-06-01 14:51:06 [INFO]: --> Execution de l'import pour sas_maj_courrier
+2021-06-01 14:51:06 [INFO]: Connected (version 2.0, client OpenSSH_8.0)
+2021-06-01 14:51:06 [INFO]: Authentication (password) successful!
+2021-06-01 14:51:06 [INFO]: [chan 0] Opened sftp connection (server version 3)
+2021-06-01 14:51:06 [INFO]: [chan 0] sftp session closed.
+2021-06-01 14:51:06 [INFO]: --> Execution de l'import pour sas_alliage
+2021-06-01 14:51:06 [INFO]: Connected (version 2.0, client OpenSSH_8.0)
+2021-06-01 14:51:06 [INFO]: Authentication (password) successful!
+2021-06-01 14:51:06 [INFO]: [chan 0] Opened sftp connection (server version 3)
+2021-06-01 14:51:06 [INFO]: [chan 0] sftp session closed.
+2021-06-01 14:51:06 [INFO]: End 01 - Import des données dans les tables SAS
+2021-06-01 14:51:06 [INFO]: Start 02 - Normalisation et alimentation des contacts unitaires
+2021-06-01 14:51:06 [INFO]: --> Import des contacts unitaires à normaliser
+2021-06-01 14:51:26 [INFO]: --> Normalisation des champs génériques
+2021-06-01 14:52:37 [INFO]: --> Normalisation des téléphones
+2021-06-01 14:55:03 [INFO]: --> Mise à jour des champs de validité
+2021-06-01 14:55:26 [INFO]: --> Alimentation des données contacts unitaires

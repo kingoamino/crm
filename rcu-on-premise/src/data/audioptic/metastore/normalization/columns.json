@@ -1,0 +1,54 @@
+{
+    "columns": [
+        {
+            "norm_type": "generic",
+            "norm_map": [
+                {
+                    "col": "email",
+                    "func": "norm_email"
+                },
+                {
+                    "col": "last_name",
+                    "func": "norm_last_name"
+                },
+                {
+                    "col": "first_name",
+                    "func": "norm_first_name"
+                },
+                {
+                    "col": "country",
+                    "func": "norm_country"
+                }
+            ],
+            "lang": "FR"
+        },
+        {
+            "norm_type": "phone",
+            "norm_map": [
+                {
+                    "col": "phone",
+                    "func": "norm_phone"
+                },
+                {
+                    "col": "mobile_phone",
+                    "func": "norm_phone"
+                }
+            ],
+            "lang": null,
+            "country_code": "FR"
+        },
+        {
+            "norm_type": "validity",
+            "norm_map": [
+                {
+                    "col": "norm_email",
+                    "func": "is_valid"
+                },
+                {
+                    "col": "norm_mobile_phone",
+                    "func": "is_valid"
+                }
+            ]
+        }
+    ]
+}

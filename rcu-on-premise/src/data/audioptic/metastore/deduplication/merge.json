@@ -1,0 +1,38 @@
+{
+    "order_by": ["source_date_modification", "source_date_creation"],
+    "sources": [
+        {
+            "name": "collecte",
+            "weight": 1
+        },
+        {
+            "name": "cosium",
+            "weight": 2
+        },
+        {
+            "name": "sas_golden",
+            "weight": 3
+        }
+    ],
+    "groups": [
+        {
+            "name": "socio_demo",
+            "cols": ["civilite", "nom", "prenom", "date_naissance", "sexe"]
+        },
+        {
+            "name": "email",
+            "cols": ["email", "email_valid", "optin_email"]
+        },
+        {
+            "name": "telephone",
+            "cols": ["tel_mobile", "mobile_valid", "optin_sms", "tel_fixe"]
+        },
+        {
+            "name": "adresse",
+            "cols": [
+                "adresse_norm", "adresse1", "adresse2", "adresse3", "adresse4", "codepostal",
+                "ville", "pays", "optin_courrier", "code_pays"
+        ]
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "queries": [
+        "anonymisation_automatique_contacts_golden.sql",
+        "anonymisation_client_contacts_golden.sql",
+        "anonymisation_contacts_unitaires.sql",
+        "anonymisation_purge_contacts.sql"
+    ]
+}
